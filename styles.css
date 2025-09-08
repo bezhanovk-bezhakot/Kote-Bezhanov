@@ -1,0 +1,40 @@
+*{box-sizing:border-box}html,body{height:100%}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55;background:#fafafa;color:#111}
+.container{max-width:1000px;margin:0 auto;padding:20px}
+header h1{font-size:clamp(28px,4vw,40px);margin:0 0 4px}
+.subtitle{color:#555;margin:0 0 16px}
+.vs{color:#ff6a00}
+.card{background:#fff;border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.field label{display:block;font-weight:600;margin-bottom:6px}
+.field input,.field select{width:100%;padding:10px 12px;border:1px solid #ddd;border-radius:12px;font-size:16px;background:#fff}
+.hint{font-size:12px;color:#777;margin-top:6px}
+.btn{background:#ff6a00;color:#fff;border:none;border-radius:12px;padding:12px 16px;font-size:16px;font-weight:600;cursor:pointer;transition:filter .2s ease}
+.btn:hover{filter:brightness(.95)}
+.btn.ghost{background:transparent;border:1px solid #ddd;color:#111}
+.hidden{display:none}
+.table-scroll{overflow:auto}
+table.ingredients{width:100%;border-collapse:collapse}
+table.ingredients th, table.ingredients td{border-bottom:1px solid #eee;padding:10px;text-align:left}
+table.ingredients tfoot td{background:#fffaf5}
+.right{text-align:right}
+.battle{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center}
+.option{background:#f7f7f7;border-radius:16px;padding:14px}
+.option .emoji{font-size:40px}
+.option .name{font-weight:700;margin:6px 0}
+.vs-badge{font-weight:800;border:2px dashed #ff6a00;color:#ff6a00;border-radius:999px;padding:8px 12px}
+.winner{display:flex;gap:12px;align-items:center;background:#fff6ee;border:1px solid #ffe1cc;border-radius:12px;padding:12px;margin-top:16px}
+.trophy{font-size:28px}
+.gapbar{height:14px;background:linear-gradient(90deg,#ff6a00,#00a86b);border-radius:999px;margin-top:12px}
+.recommendation{margin-top:12px;padding:12px;border-radius:12px;background:#eefbf3;border:1px solid #cceedd}
+.history{list-style:none;padding:0;margin:0}
+.history li{padding:10px 0;border-bottom:1px solid #eee;display:flex;justify-content:space-between;gap:10px}
+.footer{opacity:.8;text-align:center;padding-bottom:40px}
+@media (prefers-color-scheme: dark){
+  body{background:#0b0b0b;color:#f5f5f5}
+  .card{background:#121212;box-shadow:none;border:1px solid #1f1f1f}
+  .field input,.field select{background:#0b0b0b;border-color:#2a2a2a;color:#f5f5f5}
+  .option{background:#161616}
+  .winner{background:#1b140f;border-color:#2a1a10}
+  .btn.ghost{color:#f5f5f5;border-color:#2a2a2a}
+}

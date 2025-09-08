@@ -1,0 +1,188 @@
+[
+  {
+    "id": "pancakes_meat",
+    "name": "Блинчики с мясом (домашние)",
+    "category": "Горячее",
+    "yieldCount": 12,
+    "yieldName": "шт.",
+    "ingredients": [
+      {
+        "name": "Яйца",
+        "qty": 4,
+        "unit": "piece"
+      },
+      {
+        "name": "Мука пшеничная",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Молоко",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Соль",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Сахар",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Масло растительное",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Говяжий фарш",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Лук репчатый",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Перец чёрный",
+        "qty": 2,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "pancakes_basic",
+    "name": "Блины классические",
+    "category": "Завтрак",
+    "yieldCount": 12,
+    "yieldName": "шт.",
+    "ingredients": [
+      {
+        "name": "Яйца",
+        "qty": 3,
+        "unit": "piece"
+      },
+      {
+        "name": "Мука пшеничная",
+        "qty": 220,
+        "unit": "g"
+      },
+      {
+        "name": "Молоко",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Соль",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Сахар",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Масло растительное",
+        "qty": 20,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "cutlets",
+    "name": "Котлеты домашние",
+    "category": "Горячее",
+    "yieldCount": 10,
+    "yieldName": "шт.",
+    "ingredients": [
+      {
+        "name": "Фарш свино-говяжий",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Хлеб белый",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Молоко",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Лук репчатый",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Яйца",
+        "qty": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Соль",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Перец чёрный",
+        "qty": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Масло растительное",
+        "qty": 25,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "dumplings",
+    "name": "Пельмени домашние",
+    "category": "Горячее",
+    "yieldCount": 40,
+    "yieldName": "шт.",
+    "ingredients": [
+      {
+        "name": "Мука пшеничная",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Яйца",
+        "qty": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Вода",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Соль",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Фарш свино-говяжий",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Лук репчатый",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Перец чёрный",
+        "qty": 2,
+        "unit": "g"
+      }
+    ]
+  }
+]
