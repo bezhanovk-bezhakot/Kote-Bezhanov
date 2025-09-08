@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Готовое vs Домашнее — c ингредиентами</title>
-  <meta name="description" content="Сравнивайте готовое и домашнее с расчётом по ингредиентам и собственной ценовой книжкой.">
+  <title>Готовое vs Домашнее — пакеты и объёмы</title>
+  <meta name="description" content="Сравнение готового и домашнего с расчётом по ингредиентам, ценой за упаковку и объёмом упаковки.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥞</text></svg>">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="container">
     <h1>Готовое <span class="vs">vs</span> Домашнее</h1>
-    <p class="subtitle">Счёт по ингредиентам, локальная база цен, совет по количеству порций</p>
+    <p class="subtitle">Цена за упаковку + объём упаковки → корректная стоимость доли ингредиента</p>
   </header>
 
   <main class="container">
@@ -25,21 +25,20 @@
           </div>
           <div class="field">
             <label for="ready-pack-price">Цена упаковки (₽)</label>
-            <input id="ready-pack-price" type="number" min="0" step="0.01" placeholder="Например: 360" required>
+            <input id="ready-pack-price" type="number" min="0" step="0.01" placeholder="Напр.: 360" required>
           </div>
           <div class="field">
             <label for="ready-pack-count">Штук в упаковке</label>
-            <input id="ready-pack-count" type="number" min="1" step="1" placeholder="Например: 6" required>
+            <input id="ready-pack-count" type="number" min="1" step="1" placeholder="Напр.: 6" required>
           </div>
           <div class="field">
             <label for="household-size">Размер семьи (чел.)</label>
             <input id="household-size" type="number" min="1" step="1" value="1">
-            <div class="hint">Нужно для рекомендаций: хватит ли порций и стоит ли готовить</div>
           </div>
           <div class="field">
             <label for="recipe-select">Рецепт (из базы)</label>
             <select id="recipe-select" required></select>
-            <div class="hint">Можно редактировать ингредиенты и цены ниже</div>
+            <div class="hint">Цены вводятся за упаковку, а рядом — объём упаковки (например, 1 л).</div>
           </div>
         </div>
         <button class="btn" type="button" id="load-recipe">Загрузить рецепт</button>
@@ -53,17 +52,18 @@
           <thead>
             <tr>
               <th>Ингредиент</th>
-              <th>Кол-во в рецепте</th>
+              <th>Нужно</th>
               <th>Ед.</th>
-              <th>Цена за ед. (₽)</th>
-              <th>Ед. цены</th>
+              <th>Цена за упаковку (₽)</th>
+              <th>Объём упаковки</th>
+              <th>Ед. объёма</th>
               <th>Стоимость (₽)</th>
             </tr>
           </thead>
           <tbody id="ingredients-body"></tbody>
           <tfoot>
             <tr>
-              <td colspan="5" class="right"><b>Себестоимость рецепта</b></td>
+              <td colspan="6" class="right"><b>Себестоимость рецепта</b></td>
               <td id="recipe-total"><b>—</b></td>
             </tr>
           </tfoot>
@@ -83,7 +83,7 @@
         <button class="btn ghost" id="save-pricebook">Сохранить цены в «ценовую книжку»</button>
         <button class="btn" id="compare">Сравнить</button>
       </div>
-      <small>Цены сохраняются локально в браузере и подставляются автоматически при следующем выборе ингредиента.</small>
+      <small>Цены сохраняются локально в браузере (localStorage) и подставляются автоматически.</small>
     </section>
 
     <section id="battle-section" class="card hidden" aria-live="polite">
@@ -110,18 +110,10 @@
       <div class="gapbar" id="gapbar" role="img" aria-label="Отрыв по цене"></div>
       <div class="recommendation" id="recommendation"></div>
     </section>
-
-    <section class="card">
-      <h2>4) История сравнений</h2>
-      <ul id="history" class="history"></ul>
-      <div class="actions">
-        <button id="clear-history" class="btn ghost">Очистить историю</button>
-      </div>
-    </section>
   </main>
 
   <footer class="container footer">
-    <small>⚠️ Цены вводит пользователь или импортирует вручную. Для автоматической загрузки цен из магазинов нужен их официальный API.</small>
+    <small>⚠️ Для автоматических цен из магазинов нужен их официальный API. Здесь цены вводятся вручную.</small>
   </footer>
 
   <script type="module" src="app.js"></script>
