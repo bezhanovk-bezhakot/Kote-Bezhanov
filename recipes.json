@@ -6,12 +6,36 @@
     "yieldCount": 12,
     "yieldName": "шт.",
     "ingredients": [
-      { "name": "Мука пшеничная", "qty": 250, "unit": "g" },
-      { "name": "Молоко", "qty": 500, "unit": "ml" },
-      { "name": "Яйца", "qty": 2, "unit": "piece" },
-      { "name": "Сахар", "qty": 20, "unit": "g" },
-      { "name": "Соль", "qty": 3, "unit": "g" },
-      { "name": "Масло растительное", "qty": 30, "unit": "ml" }
+      {
+        "name": "Мука пшеничная",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Молоко",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Яйцы",
+        "qty": 2,
+        "unit": "piece"
+      },
+      {
+        "name": "Сахар",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Соль",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Масло растительное",
+        "qty": 30,
+        "unit": "ml"
+      }
     ]
   },
   {
@@ -21,13 +45,41 @@
     "yieldCount": 15,
     "yieldName": "шт.",
     "ingredients": [
-      { "name": "Мука пшеничная", "qty": 250, "unit": "g" },
-      { "name": "Кефир", "qty": 250, "unit": "ml" },
-      { "name": "Яйца", "qty": 1, "unit": "piece" },
-      { "name": "Сахар", "qty": 30, "unit": "g" },
-      { "name": "Сода", "qty": 3, "unit": "g" },
-      { "name": "Соль", "qty": 2, "unit": "g" },
-      { "name": "Масло растительное", "qty": 30, "unit": "ml" }
+      {
+        "name": "Мука пшеничная",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Кефир",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Яйцы",
+        "qty": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Сахар",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Сода",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Соль",
+        "qty": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Масло растительное",
+        "qty": 30,
+        "unit": "ml"
+      }
     ]
   },
   {
@@ -37,12 +89,36 @@
     "yieldCount": 10,
     "yieldName": "шт.",
     "ingredients": [
-      { "name": "Творог", "qty": 400, "unit": "g" },
-      { "name": "Яйца", "qty": 1, "unit": "piece" },
-      { "name": "Сахар", "qty": 40, "unit": "g" },
-      { "name": "Мука пшеничная", "qty": 50, "unit": "g" },
-      { "name": "Соль", "qty": 2, "unit": "g" },
-      { "name": "Масло растительное", "qty": 30, "unit": "ml" }
+      {
+        "name": "Творог",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Яйцы",
+        "qty": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Сахар",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Мука пшеничная",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Соль",
+        "qty": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Масло растительное",
+        "qty": 30,
+        "unit": "ml"
+      }
     ]
   },
   {
@@ -52,11 +128,31 @@
     "yieldCount": 2,
     "yieldName": "порц.",
     "ingredients": [
-      { "name": "Молоко", "qty": 500, "unit": "ml" },
-      { "name": "Крупа манная", "qty": 50, "unit": "g" },
-      { "name": "Сахар", "qty": 20, "unit": "g" },
-      { "name": "Соль", "qty": 2, "unit": "g" },
-      { "name": "Масло сливочное", "qty": 20, "unit": "g" }
+      {
+        "name": "Молоко",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Крупа манная",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Сахар",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Соль",
+        "qty": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Масло сливочное",
+        "qty": 20,
+        "unit": "g"
+      }
     ]
   },
   {
@@ -66,10 +162,26 @@
     "yieldCount": 2,
     "yieldName": "порц.",
     "ingredients": [
-      { "name": "Крупа гречневая", "qty": 200, "unit": "g" },
-      { "name": "Вода", "qty": 400, "unit": "ml" },
-      { "name": "Соль", "qty": 3, "unit": "g" },
-      { "name": "Масло сливочное", "qty": 20, "unit": "g" }
+      {
+        "name": "Крупа гречневая",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Вода",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Соль",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Масло сливочное",
+        "qty": 20,
+        "unit": "g"
+      }
     ]
   },
   {
@@ -79,11 +191,31 @@
     "yieldCount": 2,
     "yieldName": "порц.",
     "ingredients": [
-      { "name": "Овсяные хлопья", "qty": 80, "unit": "g" },
-      { "name": "Молоко", "qty": 400, "unit": "ml" },
-      { "name": "Сахар", "qty": 20, "unit": "g" },
-      { "name": "Соль", "qty": 2, "unit": "g" },
-      { "name": "Масло сливочное", "qty": 15, "unit": "g" }
+      {
+        "name": "Овсяные хлопья",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Молоко",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Сахар",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Соль",
+        "qty": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Масло сливочное",
+        "qty": 15,
+        "unit": "g"
+      }
     ]
   },
   {
@@ -93,10 +225,26 @@
     "yieldCount": 2,
     "yieldName": "порц.",
     "ingredients": [
-      { "name": "Яйца", "qty": 4, "unit": "piece" },
-      { "name": "Молоко", "qty": 100, "unit": "ml" },
-      { "name": "Соль", "qty": 2, "unit": "g" },
-      { "name": "Масло сливочное", "qty": 20, "unit": "g" }
+      {
+        "name": "Яйца",
+        "qty": 4,
+        "unit": "piece"
+      },
+      {
+        "name": "Молоко",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Соль",
+        "qty": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Масло сливочное",
+        "qty": 20,
+        "unit": "g"
+      }
     ]
   },
   {
@@ -106,11 +254,31 @@
     "yieldCount": 10,
     "yieldName": "шт.",
     "ingredients": [
-      { "name": "Картофель", "qty": 500, "unit": "g" },
-      { "name": "Яйца", "qty": 1, "unit": "piece" },
-      { "name": "Мука пшеничная", "qty": 30, "unit": "g" },
-      { "name": "Соль", "qty": 5, "unit": "g" },
-      { "name": "Масло растительное", "qty": 50, "unit": "ml" }
+      {
+        "name": "Картофель",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Яйцы",
+        "qty": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Мука пшеничная",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Соль",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Масло растительное",
+        "qty": 50,
+        "unit": "ml"
+      }
     ]
   },
   {
@@ -120,12 +288,36 @@
     "yieldCount": 6,
     "yieldName": "порц.",
     "ingredients": [
-      { "name": "Творог", "qty": 500, "unit": "g" },
-      { "name": "Яйца", "qty": 2, "unit": "piece" },
-      { "name": "Сахар", "qty": 80, "unit": "g" },
-      { "name": "Сметана", "qty": 100, "unit": "g" },
-      { "name": "Манная крупа", "qty": 40, "unit": "g" },
-      { "name": "Масло сливочное", "qty": 20, "unit": "g" }
+      {
+        "name": "Творог",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Яйцы",
+        "qty": 2,
+        "unit": "piece"
+      },
+      {
+        "name": "Сахар",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Сметана",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Манная крупа",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Масло сливочное",
+        "qty": 20,
+        "unit": "g"
+      }
     ]
   },
   {
@@ -135,9 +327,21 @@
     "yieldCount": 1,
     "yieldName": "порц.",
     "ingredients": [
-      { "name": "Яйца", "qty": 2, "unit": "piece" },
-      { "name": "Масло сливочное", "qty": 10, "unit": "g" },
-      { "name": "Соль", "qty": 2, "unit": "g" }
+      {
+        "name": "Яйца",
+        "qty": 2,
+        "unit": "piece"
+      },
+      {
+        "name": "Масло сливочное",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Соль",
+        "qty": 2,
+        "unit": "g"
+      }
     ]
   }
 ]
